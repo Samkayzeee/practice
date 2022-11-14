@@ -1,0 +1,107 @@
+footer{
+    background: #FAFAFA;
+    padding: 2% 0;
+
+}
+footer h5{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #333333;
+}
+
+.footer{
+    padding: 4% 6%;
+}
+footer .logo{
+    color: #2F2F2F;
+}
+footer .first{
+    display: flex;
+    justify-content: space-between;
+}
+footer .first h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #2F2F2F;
+    margin-bottom: 6%;
+}
+footer .first ul li{
+    list-style-type: none;
+    margin: 4% 0;
+}
+footer .first ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #2F2F2F;
+    line-height: 23px;
+}
+footer .second{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 17%;
+    margin-top: 6%;
+
+}
+footer .second .follow > h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #2F2F2F;
+    margin-bottom: 6%;
+}
+footer .second .follow i{
+    background-color: #442AEA;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 0 8px;
+
+}
+footer .second .follow .fa-facebook-f{
+    margin: 0 5px 0 0;
+    padding: 8px 12px;
+}
+footer .subscribe{
+    position: relative;
+    width: 35%;
+    /* border: solid; */
+}
+footer .subscribe > h4{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #2F2F2F;
+    margin-bottom: 6%;
+}
+footer .subscribe input{
+    border: 0.5px solid #ABB3BF;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 3% 0;
+    padding-left: 5%;
+    background: #FFFFFF;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+}
+footer .subscribe button{
+    position: absolute;
+    background: #442AEA;
+    border-radius: 5px;
+    padding: 3% 7%;
+    border: none;
+    bottom: 1.5%;
+    right: 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+footer .line{
+    border: 1px solid #006788;
+    opacity: 0.4;
+    margin: 0 0 2% 0;
+}
