@@ -32,6 +32,10 @@ const Navbar = () => {
                     <button className="login" onClick={() => navigate('/login')}>Login</button>
                     <button className="get-started" onClick={() => navigate('/')}>Get Started</button>
                 </div>
+
+                <div className="menu">
+                    <i className="fa-solid fa-bars"></i>
+                </div>
             </nav>
         </>
      );

@@ -90,3 +90,17 @@ nav{
     color: #FFFFFF;
     cursor: pointer;
 }
+.menu{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px) {
+    .nav-pages, .nav-btns{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}

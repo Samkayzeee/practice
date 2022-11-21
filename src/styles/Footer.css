@@ -105,3 +105,18 @@ footer .line{
     opacity: 0.4;
     margin: 0 0 2% 0;
 }
+@media screen and (max-width:700px) {
+    footer .first{
+        flex-direction: column;
+    }
+    footer .second{
+        flex-direction: column;
+        /* border: solid; */
+        padding: 0;
+    }
+    footer .subscribe{
+        width: 100%;
+        /* border: solid; */
+        margin-top: 4%;
+    }
+}

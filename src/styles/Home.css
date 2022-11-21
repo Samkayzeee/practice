@@ -45,7 +45,6 @@ main{
 }
 .home-section1 .images{
     position: relative;
-    /* border: solid 1px; */
     width: 42%;
     height: 600px;
 }
@@ -132,7 +131,7 @@ main{
     margin-top: 1%;
 }
 .home-section3{
-    padding: 6% 6%;
+    padding: 6%;
     background: #FAFAFA;
 }
 
@@ -153,7 +152,6 @@ main{
 .home-section3 .second-content{
     display: flex;
     justify-content: space-between;
-    /* border: solid; */
     margin-top: 5%;
 }
 .home-section3 .second-content .image{
@@ -228,27 +226,28 @@ main{
 }
 
 .home-section4{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4% 0;
     padding: 8% 6%;
     background: #000D30;
     margin-bottom: 4%;
 }
-.home-section4 .first-content{
-    width: 95%;
+.home-section4 .first{ 
+    margin-top: 4%;
+    width: fit-content; 
 }
-.home-section4 .first-content .first{
-    margin-bottom: 12%;
-    width: 90%;
+.home-section4 #first-mentor-card{
+    margin-left: 0;
 }
-.home-section4 .first-content .first h2{
+.home-section4 .first h2{
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
     color: #FFFFFF;
     margin-bottom: 4%;
 }
-.home-section4 .first-content .first p{
+.home-section4 .first p{
     font-size: 16px;
     line-height: 23px;
     font-weight: 400;
@@ -260,11 +259,9 @@ main{
     display: flex;
     background: #FFFFFF;
     border-radius: 12px;
-    margin:  4%;
+    margin:  2%;
     padding: 2%;
-}
-.home-section4 #first-mentor-card{
-    margin: 0;
+    width: 90%;
 }
 
 .home-section4 .mentor-card .image1{
@@ -295,6 +292,7 @@ main{
     font-weight: 700;
     line-height: 24px;
     color: #000D30;
+    margin-bottom: 4%;
 }
 .home-section4 .mentor-card p{
     font-size: 16px;
@@ -334,7 +332,6 @@ main{
 .home-section5 .contents{
     display: flex;
     justify-content: space-between;
-    /* border: solid; */
 }
 .home-section5 .contents .first-content{
     padding: 15% 0;
@@ -460,4 +457,104 @@ main{
 }
 .home-section7{
     padding: 4% 6%;
+}
+@media screen and (max-width:700px) {
+    .home-section1{
+        flex-direction: column;
+        /* border: solid; */
+    }
+    .home-section1 .content{
+        width: 100%;
+    }
+    .home-section1 .content .get-started{
+        display: block;
+        margin: auto;
+    }
+    .home-section1 .images{
+        width: 100%;
+        margin-top: 4%;
+        /* border: solid; */
+    }
+    .home-section1 .images .first{
+        width: 60%;
+    }
+    .home-section1 .images .second{
+        width: 55%;
+    }
+    .home-section1 .images .third{
+        width: 80%;
+        background-position: 50%;
+    }
+    .home-section2{
+        padding-left: 8%;
+        display: none;
+    }
+    .home-section2 .content{
+        flex-direction: column;
+    }
+    .home-section2 .content .first{
+        width: 100%;
+    }
+    .home-section3 .first-content h1{
+        text-align: start;
+    }
+    .home-section3 .first-content p{
+        text-align: start;
+    }
+    .home-section3 .second-content{
+        flex-direction: column;
+    }
+    .home-section3 .second-content .image{
+        width: 100%;
+    }
+    .home-section3 .second-content .courses .main-courses{
+      display: block;
+      padding: 0;
+    }
+    .home-section3 .second-content .courses .main-courses .main-course .course{
+        width: 100%;
+    }
+    .home-section4{
+        display: block;
+    }
+    .home-section4 .first p{
+        width: 100%;
+        /* border: solid red; */
+    }
+    .home-section4 .mentor-card{
+        flex-direction: column;
+    }
+    .home-section4 #first-mentor-card{
+        margin: 2%;
+    }
+    .home-section4 .mentor-card .image1, .home-section4 .mentor-card .image2, .home-section4 .mentor-card .image3{
+        width: 100%;
+    }
+    .home-section5 p{
+        text-align: start;
+    }
+    .home-section5 .contents{
+        flex-direction: column;
+    }
+    .home-section5 .contents .first-content{
+        width: 100%;
+        height: 100px;
+        /* border: solid; */
+    }
+    .home-section5 .contents .first-content .image{
+        width: 70%;
+        left: 17%;
+        height: 100%;
+    }
+    .home-section5 .contents .second-content{
+        width: 100%;
+        margin-top: 4%;
+    }
+    .home-section6 > h1{
+        width: 100%;
+        font-size: 30px;
+    }
+    .home-section6 .scroll .scroll-divs{
+        width: 100%;
+    }
 }

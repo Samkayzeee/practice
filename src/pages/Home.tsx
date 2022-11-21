@@ -154,7 +154,7 @@ const Home = () => {
 
         <section className="home-section4">
 
-            <div className="first-content">
+            
 
                 <div className="first">
                     <h2>As a student, your next chapter is 
@@ -165,7 +165,7 @@ const Home = () => {
                     </p>
                 </div>
 
-                <div className="mentor-card" id="first-mentor-card">
+                <div className="mentor-card">
                     <div className="image1">
 
                     </div>
@@ -175,10 +175,10 @@ const Home = () => {
                         <p>Eu imperdiet aliquam neque porttitor egestas quis fames ultricies suspendisse. Eu imperdiet aliquam neque porttitor egestas quis fames ultricies suspendisse.</p>
                     </div>
                 </div>
-            </div>
+          
 
-            <div className="second-content">
-            <div className="mentor-card">
+            
+            <div className="mentor-card" id="first-mentor-card">
                     <div className="image2">
 
                     </div>
@@ -200,7 +200,7 @@ const Home = () => {
                     </div>
                 </div>
                 
-            </div>
+            
         </section>
 
 

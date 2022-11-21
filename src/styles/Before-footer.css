@@ -32,3 +32,11 @@
     margin: 0 auto;
     color: #FFFFFF;
 }
+@media screen and (max-width:700px) {
+    .before-footer h1{
+        text-align: start;
+    }
+    .before-footer p{
+        text-align: start;
+    }
+}
